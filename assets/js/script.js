@@ -19,10 +19,10 @@ function promptUser() {
    var returnPass = "";
 
    //if password is out of scope lets restart
-if (charterNumber <= 10) {
+if (charterNumber < 10) {
     alert("Please select a higher number. For your security we do not create passwords under 10 characters.");
     return;
-} else if (charterNumber >= 32) {
+} else if (charterNumber > 32) {
 confirmNumber();
 } else {
     Nextprompts();
@@ -38,8 +38,8 @@ Nextprompts();
     return;
 }
 
-// Nextprompts(){
-    
+function Nextprompts() {
+}
 // }
 var promptUser = promptUser();
 btn.addEventListener("click", promptUser);
