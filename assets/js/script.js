@@ -1,6 +1,6 @@
 //setting variables for password
 var btn = document.getElementById("btn");
-
+var textArea = document.querySelector("#textArea");
 //charter types
 // var passwordIncludes = "";
 // var returnPass = "";
@@ -79,8 +79,10 @@ var returnPass = "";
         console.log(returnPass);
     } 
 console.log(returnPass);
-    return returnPass;
+    // return returnPass;
+    var textArea = document.querySelector("#textArea");
 
+    textArea.value = returnPass;
 
 }
 }
