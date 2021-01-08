@@ -8,7 +8,8 @@ This will help your password not get guess by others. Everyone can have a securi
 
 ![Test Image 4](https://github.com/tograh/testrepository/3DTest.png 112)
 
-
+In order to test this app:
+https://devonmartens.github.io/Securify/
 
 For more information on why having a good password can be found below:
 
