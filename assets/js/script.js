@@ -1,9 +1,9 @@
 //setting variables for password
+///DOM 
 var btn = document.getElementById("btn");
 var textArea = document.querySelector("#textArea");
-//charter types
-// var passwordIncludes = "";
-// var returnPass = "";
+
+//string additions/potiental password characters
 var upperCaseLetter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowerCaseLetter = upperCaseLetter.toLowerCase();
 var numbers = "0123456789";
@@ -15,10 +15,11 @@ btn.addEventListener("click", promptUser);
 
 function promptUser() {
     var charterNumber = prompt("How many characters would you like your password to contain 10 is the minimuim for safe passwords and over 32 is too hard to memorize");
-    //reset
-//     var passwordIncludes = "";
-//    var returnPass = "";
-
+//make sure a number has been entered
+    if (isNaN(charterNumber) === true ){
+        alert('We need a number please.');
+        return;
+}
    //if password is out of scope lets restart
 if (charterNumber < 10) {
     alert("Please select a higher number. For your security we do not create passwords under 10 characters.");
