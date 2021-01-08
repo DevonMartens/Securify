@@ -6,7 +6,7 @@ This will help your password not get guess by others. Everyone can have a securi
 
 ![Test Image 4](https://github.com/tograh/testrepository/3DTest.png 112)
 
-![Test Image 4](https://github.com/DevonMartens/Securify/blob/main/assets/images/key.jpg?raw=true)
+![Twitter Fit](https://github.com/DevonMartens/Securify/blob/main/assets/images/trump-twitter-password-maga-no-orange.jpg?raw=true)
 
 In order to test this app:
 https://devonmartens.github.io/Securify/
